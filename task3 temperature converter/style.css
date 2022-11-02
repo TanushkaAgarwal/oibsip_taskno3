@@ -1,0 +1,66 @@
+body{
+    background: url('storms-coming.jpg');
+}
+h1{
+    font-size: 80;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(83, 193, 201);
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color:black;
+    font-weight:1000;
+}
+.wrapper{
+    width: 500px;
+    border-color: bisque;
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.5);
+    border-radius: 8px;
+}
+.input{
+    border-radius: 5px;
+    border: 2px solid orange;
+    outline: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+select{
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.submit{
+    border-radius: 5px;
+    border: 2px solid orange;
+    outline: none;
+    padding: 6px;
+    margin-bottom: 20px;
+    background-color:orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.submit:hover{
+    background-color: yellow;
+    color: black;
+}
+.output{
+    font: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(39, 6, 104);
+    border-radius: 5px;
+    border: 2px solid orange;
+    outline: none;
+    padding: 5px;
+    margin-left: 20px;
+}
